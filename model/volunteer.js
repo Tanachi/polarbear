@@ -14,11 +14,32 @@ const volunteer = mongoose.model(
       type: String,
       required: true
     },
+    MI:{
+      type: String,
+    },
+    AKA:{
+      type: String,
+    },
+    SSN:{
+      type: String,
+    },
     birthDate:{
       type: String,
       required: true
     },
-    addressOne:{
+    homePhone:{
+      type: String,
+    },
+    cellPhone:{
+      type: String,
+    },
+    workPhone:{
+      type: String,
+    },
+    bestTime:{
+      type: String,
+    },
+    about:{
       type: String,
       required: true
     },
@@ -30,6 +51,7 @@ const volunteer = mongoose.model(
       type: String,
       required: true
     },
+
   }
 );
 
